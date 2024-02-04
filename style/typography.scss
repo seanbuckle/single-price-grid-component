@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+    src: 
+    local('Karla'),
+    url(./fonts/karla.woff2) format('woff2');
+}
+:root{
+    --ff: 'Karla', sans-serif;
+    --f-head-xl: 700 2rem/normal var(--ff);
+    --f-head-xl-ls: -0.025rem;
+    --f-head-l: 700 clamp(1.25rem, 3vw, 1.5rem)/normal var(--ff);
+    --f-head-l-ls: clamp(-0.01563rem, 3vw, -0.01875rem);
+    --f-head-m: 700 1.125rem/normal var(--ff);
+    --f-head-m-ls: -0.01406rem;
+    --f-head-s: 700 clamp(0.9375rem, 3vw, 1.125rem)/clamp(100%,3vw,1.25rem) var(--ff);
+    --f-head-s-ls: clamp(-0.01169rem, 3vw, -0.01406rem);
+    --f-body-l: 400 1rem/1.625rem var(--ff);
+    --f-body-l-ls: -0.0125rem;
+    --f-body-m: 400 clamp(0.875rem, 3vw, 1rem)/clamp(1.25rem,3vw,1.625rem) var(--ff);
+    --f-body-m-ls: clamp(-0.01094rem, 3vw, -0.0125rem);
+    --f-body-s: 400 0.875rem/1.25rem var(--ff);
+    --f-body-s-ls: -0.01094rem;
+    --f-button: 700 1rem/normal var(--ff);
+    --f-button-ls: -0.0125rem;
+}
