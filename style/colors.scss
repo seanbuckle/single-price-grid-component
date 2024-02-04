@@ -1,0 +1,12 @@
+:root{
+    --clr-primary: oklch(69.77% 0.111 193.4);
+    --clr-secondary-1: color-mix(in oklab, var(--clr-primary), oklch(100% 0 0) 15.19%);
+    --clr-secondary-2: color-mix(in oklab, var(--clr-primary), oklch(100% 0 0) 50%);
+    --clr-secondary-3: color-mix(in oklab, var(--clr-primary), oklch(100% 0 0) 75%);
+    --clr-accent: oklch(85.29% 0.187 119.94);
+    --clr-accent-2: color-mix(in oklab, var(--clr-accent), oklch(0% 0 0) 5%);
+    --clr-text: oklch(72.2% 0.037 261.42);
+    --clr-text-2: oklch(100% 0 0);
+    --clr-body: oklch(94.71% 0.0319 236.63);
+    --clr-surface: oklch(100% 0 0);
+}
